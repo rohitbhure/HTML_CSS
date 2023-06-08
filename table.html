@@ -1,0 +1,27 @@
+</head>
+<style>
+</style>
+<body>
+<h1 align="center"> For</h1> 
+<fieldset>
+<legend align="left"><h3>Table</h3></legend>
+<lable>First Value</lable><input typy=text  id="text1">
+<button onclick=table()>Table</button>
+</fieldset>
+
+<script>
+function table()
+{
+var
+x=parseInt(document.getElementById("text1").value);
+var i;
+for(i=1; i<=10; i++)
+{
+y=x*i;
+document.write(y+'<br>');
+}
+}
+</script>
+ 
+</body>
+</html>
